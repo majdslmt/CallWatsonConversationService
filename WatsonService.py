@@ -5,6 +5,7 @@ class CallWatson(restful.Resource):
         conversation = ConversationV1(username = '', password = '', version = '')
         context = {}
         
+        
         workspace_id = ''
         response = conversation.message(
         workspace_id=workspace_id,
